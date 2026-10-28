@@ -116,3 +116,101 @@ footer strong b{color:#ff3bcf}
 @media(max-width:700px){.heroBanner{object-position:58% center;opacity:.55}.hero::after{background:linear-gradient(90deg,rgba(8,8,11,.90),rgba(8,8,11,.55)),linear-gradient(0deg,rgba(8,8,11,.65),transparent)}}
 @media(max-width:600px){.nav .logo{font-size:21px}.nav .logo img{width:29px;height:29px}.hero{padding:0 7%}.hero h1{font-size:82px;margin-top:18px}.heroLogo{width:72px;height:72px;margin-bottom:12px}.hero .heroLogo{width:108px;height:108px;margin-bottom:14px}.market,.story{padding:80px 6%}.title{display:block}.title h2,.story h2,.cta h2{font-size:57px}.cards,.products{grid-template-columns:1fr}.head{padding:70px 6% 40px}.head h1{font-size:70px}.catalog{padding:35px 6% 70px}.modalBox{grid-template-columns:1fr}.modalArt,.modalArt img.modalProductImage{min-height:220px}.modalBox>div:last-child{padding:28px}footer{flex-direction:column;gap:12px;text-align:center}}
 @media(prefers-reduced-motion:reduce){.heroBanner,.heroLogo{animation:none;transform:none}}
+
+
+/* =========================================================
+   GUAYAQUIL V3 — TEMA NEÓN CINEMATOGRÁFICO
+   Overrides visuales: conserva catálogo, tarjetas y funciones.
+   ========================================================= */
+:root{
+  --gv3-cyan:#00eaff;
+  --gv3-blue:#168bff;
+  --gv3-pink:#ff28c8;
+  --gv3-violet:#702cff;
+  --gv3-bg:#05070d;
+  --gv3-panel:rgba(10,13,25,.88);
+}
+html{background:var(--gv3-bg);scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(ellipse at 50% -12%,rgba(112,44,255,.25),transparent 46%),
+    radial-gradient(ellipse at 92% 22%,rgba(0,234,255,.09),transparent 32%),
+    radial-gradient(ellipse at 4% 54%,rgba(255,40,200,.08),transparent 34%),
+    #05070d;
+  color:#f7f8ff;
+}
+body:before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(120deg,transparent 0 42%,rgba(0,234,255,.025) 50%,transparent 58%),
+             repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 1px,transparent 1px 4px);
+}
+.nav{
+  min-height:78px;height:auto;padding:12px 5.5%;
+  background:rgba(4,6,13,.88);border-bottom:1px solid rgba(0,234,255,.25);
+  box-shadow:0 8px 32px rgba(0,0,0,.28),0 1px 18px rgba(0,234,255,.04);
+}
+.logo{gap:11px;font-size:25px;letter-spacing:.4px}
+.logo img{
+  width:43px;height:43px;object-fit:contain;filter:drop-shadow(0 0 8px rgba(0,234,255,.32)) drop-shadow(0 0 12px rgba(255,40,200,.18));
+}
+.logo b,h1 em,h2 b,.card b,.price b,.mprice b{color:var(--gv3-pink)}
+.nav nav{gap:clamp(12px,1.7vw,27px)}
+.nav nav a{transition:color .2s ease,text-shadow .2s ease}
+.nav nav a:hover,.nav nav .active{color:var(--gv3-cyan);text-shadow:0 0 12px rgba(0,234,255,.55)}
+.discord,.btn{transition:all .2s ease}
+.discord{border-color:rgba(0,234,255,.42);background:linear-gradient(110deg,rgba(0,234,255,.06),rgba(255,40,200,.05))}
+.discord:hover{border-color:var(--gv3-pink);color:var(--gv3-pink);box-shadow:0 0 18px rgba(255,40,200,.18)}
+.hero{
+  background-color:#05070d;
+  background-image:radial-gradient(ellipse at 70% 35%,rgba(0,105,255,.22),transparent 38%),radial-gradient(ellipse at 80% 65%,rgba(255,40,200,.18),transparent 35%);
+}
+.hero:after{pointer-events:none}
+.heroText h1{ text-shadow:0 0 26px rgba(0,234,255,.12) }
+.heroText h1 em{color:var(--gv3-cyan);text-shadow:0 0 24px rgba(0,234,255,.32)}
+.head{
+  position:relative;isolation:isolate;overflow:hidden;
+  background:
+    radial-gradient(ellipse at 52% 0%,rgba(112,44,255,.24),transparent 52%),
+    linear-gradient(110deg,rgba(0,234,255,.035),transparent 42%,rgba(255,40,200,.045));
+  border-bottom:1px solid rgba(0,234,255,.22);
+}
+.head:after{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(105deg,transparent 20%,rgba(0,234,255,.045) 50%,transparent 78%);
+}
+.head small,.heroText small,.market small,.title small,.story small,.cta small{color:var(--gv3-cyan)}
+.catalog{position:relative}
+.back{color:var(--gv3-cyan);transition:color .2s ease}
+.back:hover{color:var(--gv3-pink)}
+.products .product,.cards .card{
+  background:linear-gradient(145deg,rgba(16,18,31,.96),rgba(8,10,18,.96));
+  border:1px solid rgba(156,176,210,.28);
+  box-shadow:0 8px 28px rgba(0,0,0,.16);
+  transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease;
+}
+.products .product:hover,.cards .card:hover{
+  transform:translateY(-4px);border-color:rgba(0,234,255,.7);
+  box-shadow:0 12px 34px rgba(0,0,0,.3),0 0 22px rgba(0,234,255,.09),0 0 20px rgba(255,40,200,.05);
+}
+.prodArt,.modalArt{
+  background:radial-gradient(ellipse at 50% 35%,rgba(0,119,255,.14),transparent 52%),linear-gradient(120deg,#0a0d18,#151020 55%,#0a0c14);
+}
+.prodInfo small,.artTag{color:var(--gv3-cyan)}
+.price b,.mprice b{color:var(--gv3-pink)}
+.viewProduct{color:var(--gv3-cyan)}
+footer{
+  background:rgba(3,5,11,.92);border-top:1px solid rgba(0,234,255,.22);
+}
+footer strong b{color:var(--gv3-pink)}
+.modalBox{background:linear-gradient(140deg,#101321,#090a11);border-color:rgba(0,234,255,.32);box-shadow:0 0 45px rgba(0,0,0,.45),0 0 25px rgba(0,234,255,.08)}
+.modalBox button:hover{border-color:var(--gv3-pink);color:var(--gv3-pink)}
+.btn.pink{background:linear-gradient(100deg,#ff28c8,#a52cff);box-shadow:0 0 18px rgba(255,40,200,.22)}
+.btn.pink:hover{filter:brightness(1.12);transform:translateY(-1px)}
+@media(max-width:900px){
+  .nav{padding:12px 4%}
+  .nav .logo img{width:37px;height:37px}
+}
+@media(max-width:600px){
+  .nav .logo{font-size:20px;gap:8px}
+  .nav .logo img{width:34px;height:34px}
+}
