@@ -11,6 +11,7 @@ window.CATALOGO = {
         ["CIVIC FIVEM", "$40", "$50", "Civic personalizado.", "VEHÍCULO"],
         ["VEHÍCULO EXCLUSIVO GUAYAQUIL V3", "$40", "$50", "Unidad exclusiva.", "VEHÍCULO"]
     ],
+
     casas: [
         ["BEACH MANSIÓN FIVEM FULL OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Mansión optimizada.", "CASA"],
         ["WILD HOUSE FIVEM FULL OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Casa exclusiva.", "CASA"],
@@ -23,6 +24,7 @@ window.CATALOGO = {
         ["NOVA GRAND SENORA MANSION FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Gran mansión.", "CASA"],
         ["MLO VINEWOOD HILL FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Propiedad MLO.", "CASA"]
     ],
+
     armas: [
         ["STARAR", "$60,00", "", "STARAR CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/starar.gif"],
         ["AR15 LIONHEAD", "$60,00", "", "AR15 LIONHEAD CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/ar15-lionhead.gif"],
@@ -36,11 +38,46 @@ window.CATALOGO = {
         ["AMOYALTOXIC — 1 COLOR", "$60,00", "", "AMOYALTOXIC CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/amoyaltoxic.gif"],
         ["BLOODYMOON — 1 COLOR", "$60,00", "", "BLOODYMOON CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/bloodymoon.gif"],
         ["BLOODYMOON SMG — 1 COLOR", "$60,00", "", "BLOODYMOON SMG CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/bloodymoon-smg.gif"],
-        ...Array.from({ length: 36 }, (_, i) => {
-            const numero = i + 13;
-            return [`ESPACIO VIP ${numero}`, "POR DEFINIR", "", "Espacio reservado para una futura arma VIP.", "ARMA VIP"];
-        })
+
+        // ESPACIOS VIP EDITABLES INDIVIDUALMENTE
+        ["ESPACIO VIP 13", "POR DEFINIR", "", "Descripción del arma VIP 13.", "ARMA VIP", ""],
+        ["ESPACIO VIP 14", "POR DEFINIR", "", "Descripción del arma VIP 14.", "ARMA VIP", ""],
+        ["ESPACIO VIP 15", "POR DEFINIR", "", "Descripción del arma VIP 15.", "ARMA VIP", ""],
+        ["ESPACIO VIP 16", "POR DEFINIR", "", "Descripción del arma VIP 16.", "ARMA VIP", ""],
+        ["ESPACIO VIP 17", "POR DEFINIR", "", "Descripción del arma VIP 17.", "ARMA VIP", ""],
+        ["ESPACIO VIP 18", "POR DEFINIR", "", "Descripción del arma VIP 18.", "ARMA VIP", ""],
+        ["ESPACIO VIP 19", "POR DEFINIR", "", "Descripción del arma VIP 19.", "ARMA VIP", ""],
+        ["ESPACIO VIP 20", "POR DEFINIR", "", "Descripción del arma VIP 20.", "ARMA VIP", ""],
+        ["ESPACIO VIP 21", "POR DEFINIR", "", "Descripción del arma VIP 21.", "ARMA VIP", ""],
+        ["ESPACIO VIP 22", "POR DEFINIR", "", "Descripción del arma VIP 22.", "ARMA VIP", ""],
+        ["ESPACIO VIP 23", "POR DEFINIR", "", "Descripción del arma VIP 23.", "ARMA VIP", ""],
+        ["ESPACIO VIP 24", "POR DEFINIR", "", "Descripción del arma VIP 24.", "ARMA VIP", ""],
+        ["ESPACIO VIP 25", "POR DEFINIR", "", "Descripción del arma VIP 25.", "ARMA VIP", ""],
+        ["ESPACIO VIP 26", "POR DEFINIR", "", "Descripción del arma VIP 26.", "ARMA VIP", ""],
+        ["ESPACIO VIP 27", "POR DEFINIR", "", "Descripción del arma VIP 27.", "ARMA VIP", ""],
+        ["ESPACIO VIP 28", "POR DEFINIR", "", "Descripción del arma VIP 28.", "ARMA VIP", ""],
+        ["ESPACIO VIP 29", "POR DEFINIR", "", "Descripción del arma VIP 29.", "ARMA VIP", ""],
+        ["ESPACIO VIP 30", "POR DEFINIR", "", "Descripción del arma VIP 30.", "ARMA VIP", ""],
+        ["ESPACIO VIP 31", "POR DEFINIR", "", "Descripción del arma VIP 31.", "ARMA VIP", ""],
+        ["ESPACIO VIP 32", "POR DEFINIR", "", "Descripción del arma VIP 32.", "ARMA VIP", ""],
+        ["ESPACIO VIP 33", "POR DEFINIR", "", "Descripción del arma VIP 33.", "ARMA VIP", ""],
+        ["ESPACIO VIP 34", "POR DEFINIR", "", "Descripción del arma VIP 34.", "ARMA VIP", ""],
+        ["ESPACIO VIP 35", "POR DEFINIR", "", "Descripción del arma VIP 35.", "ARMA VIP", ""],
+        ["ESPACIO VIP 36", "POR DEFINIR", "", "Descripción del arma VIP 36.", "ARMA VIP", ""],
+        ["ESPACIO VIP 37", "POR DEFINIR", "", "Descripción del arma VIP 37.", "ARMA VIP", ""],
+        ["ESPACIO VIP 38", "POR DEFINIR", "", "Descripción del arma VIP 38.", "ARMA VIP", ""],
+        ["ESPACIO VIP 39", "POR DEFINIR", "", "Descripción del arma VIP 39.", "ARMA VIP", ""],
+        ["ESPACIO VIP 40", "POR DEFINIR", "", "Descripción del arma VIP 40.", "ARMA VIP", ""],
+        ["ESPACIO VIP 41", "POR DEFINIR", "", "Descripción del arma VIP 41.", "ARMA VIP", ""],
+        ["ESPACIO VIP 42", "POR DEFINIR", "", "Descripción del arma VIP 42.", "ARMA VIP", ""],
+        ["ESPACIO VIP 43", "POR DEFINIR", "", "Descripción del arma VIP 43.", "ARMA VIP", ""],
+        ["ESPACIO VIP 44", "POR DEFINIR", "", "Descripción del arma VIP 44.", "ARMA VIP", ""],
+        ["ESPACIO VIP 45", "POR DEFINIR", "", "Descripción del arma VIP 45.", "ARMA VIP", ""],
+        ["ESPACIO VIP 46", "POR DEFINIR", "", "Descripción del arma VIP 46.", "ARMA VIP", ""],
+        ["ESPACIO VIP 47", "POR DEFINIR", "", "Descripción del arma VIP 47.", "ARMA VIP", ""],
+        ["ESPACIO VIP 48", "POR DEFINIR", "", "Descripción del arma VIP 48.", "ARMA VIP", ""]
     ],
+
     negocios: [
         ["NEGOCIO GUAYAQUIL V3", "Compra por discord", "", "Disponibilidad por Discord.", "NEGOCIO"],
         ["NEGOCIO EXCLUSIVO", "Compra por discord", "", "Oportunidad exclusiva.", "NEGOCIO"],
