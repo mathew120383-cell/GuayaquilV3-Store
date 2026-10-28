@@ -1,6 +1,6 @@
 window.CATALOGO = {
     vehiculos: [
-        ["TOYOTA HITLUX HELL BEAST 6x6 1.0.0 CON SONIDO FIVEM", "$40", "$50", "Vehículo 6x6 exclusivo.", "VEHÍCULO"],
+        ["TOYOTA HITLUX HELL BEAST 6x6 1.0.0 CON SONIDO FIVEM", "$40", "$50", "Vehículo 6x6 exclusivo.", "VEHÍCULO", "assets/vehiculos/toyotahitluxhellbeast6x6.png"],
         ["MERCEDES-BENZ X CALSS LEDS CALB CUSTOM RINES CON SONIDO FIVEM", "$40", "$50", "Pick-up personalizada.", "VEHÍCULO"],
         ["GODZGLADIATOR 6x6 CON SONIDO FIVEM", "$40", "$50", "6x6 exclusivo.", "VEHÍCULO"],
         ["OYCMREV CON SONIDO FIVEM", "$40", "$50", "Vehículo personalizado.", "VEHÍCULO"],
