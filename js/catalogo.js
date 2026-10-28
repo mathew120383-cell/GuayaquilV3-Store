@@ -1,0 +1,49 @@
+window.CATALOGO = {
+    vehiculos: [
+        ["TOYOTA HITLUX HELL BEAST 6x6 1.0.0 CON SONIDO FIVEM", "$40", "$50", "Vehículo 6x6 exclusivo.", "VEHÍCULO"],
+        ["MERCEDES-BENZ X CALSS LEDS CALB CUSTOM RINES CON SONIDO FIVEM", "$40", "$50", "Pick-up personalizada.", "VEHÍCULO"],
+        ["GODZGLADIATOR 6x6 CON SONIDO FIVEM", "$40", "$50", "6x6 exclusivo.", "VEHÍCULO"],
+        ["OYCMREV CON SONIDO FIVEM", "$40", "$50", "Vehículo personalizado.", "VEHÍCULO"],
+        ["KOENIGSEGG GEMERA HYCADE CON SONIDO FIVEM", "$40", "$50", "Superdeportivo exclusivo.", "VEHÍCULO"],
+        ["FENYR SUPERSPORT HELLO KITTY DINAMIC LIGHTS GAMER CAFE CON SONIDO FIVEM", "$40", "$50", "Edición especial.", "VEHÍCULO"],
+        ["MERCEDES CLS 19 MAFIA EDITION CON SONIDO FIVEM", "$40", "$50", "Edición Mafia.", "VEHÍCULO"],
+        ["NISSAN SKYLINE GTR R34 CON SONIDO FIVEM", "$40", "$50", "Clásico JDM.", "VEHÍCULO"],
+        ["CIVIC FIVEM", "$40", "$50", "Civic personalizado.", "VEHÍCULO"],
+        ["VEHÍCULO EXCLUSIVO GUAYAQUIL V3", "$40", "$50", "Unidad exclusiva.", "VEHÍCULO"]
+    ],
+    casas: [
+        ["BEACH MANSIÓN FIVEM FULL OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Mansión optimizada.", "CASA"],
+        ["WILD HOUSE FIVEM FULL OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Casa exclusiva.", "CASA"],
+        ["VINEWOOD ROOFTOP FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Rooftop moderno.", "CASA"],
+        ["LS HILLS HOUSE2 FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Propiedad residencial.", "CASA"],
+        ["LS HILLS HOUSE1 FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Propiedad exclusiva.", "CASA"],
+        ["FUTURIS HOUSE FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Diseño futurista.", "CASA"],
+        ["BEACH MANSION 04 FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Mansión de playa.", "CASA"],
+        ["BEACH MANSION 03 FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Mansión de playa.", "CASA"],
+        ["NOVA GRAND SENORA MANSION FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Gran mansión.", "CASA"],
+        ["MLO VINEWOOD HILL FIVEM OPTIMIZADO", "CONSULTAR POR DISCORD", "", "Propiedad MLO.", "CASA"]
+    ],
+    armas: [
+        ["STARAR", "$60,00", "", "STARAR CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/starar.gif"],
+        ["AR15 LIONHEAD", "$60,00", "", "AR15 LIONHEAD CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/ar15-lionhead.gif"],
+        ["PISTOLMK2  VOLT", "$50,00", "", "PISTOLMK2  VOLT CON ANIMACIÓN.", "PISTOLA/ANIMADA", "assets/armas/pistolmk2-volt.gif"],
+        ["GK18 BLACKGOLD", "$50,00", "", "GK18 BLACKGOLD CON ANIMACIÓN.", "PISTOLA/ANIMADA", "assets/armas/gk18-blackgold.gif"],
+        ["DEAGLE ANGELIC", "$50,00", "", "DEAGLE ANGELIC CON ANIMACIÓN.", "PISTOLA/ANIMADA", "assets/armas/deagle-angelic.gif"],
+        ["M4 CERBERUS", "$60,00", "", "M4 CERBERUS CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/m4-cerberus.gif"],
+        ["GK20 CAUTION", "$50,00", "", "GK20 CAUTION CON ANIMACIÓN.", "PISTOLA/ANIMADA", "assets/armas/gk20-caution.gif"],
+        ["DEAGLE CERBERUS", "$50,00", "", "DEAGLE CERBERUS CON ANIMACIÓN.", "PISTOLA/ANIMADA", "assets/armas/deagle-cerberus.gif"],
+        ["WOLFRIFlE FIRE", "$75,00", "", "WOLFRIGLE FIRE CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/wolfrigle-fire.gif"],
+        ["AMOYALTOXIC — 1 COLOR", "$60,00", "", "AMOYALTOXIC CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/amoyaltoxic.gif"],
+        ["BLOODYMOON — 1 COLOR", "$60,00", "", "BLOODYMOON CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/bloodymoon.gif"],
+        ["BLOODYMOON SMG — 1 COLOR", "$60,00", "", "BLOODYMOON SMG CON ANIMACIÓN.", "ARMA LARGA/ANIMADA", "assets/armas/bloodymoon-smg.gif"],
+        ...Array.from({ length: 36 }, (_, i) => {
+            const numero = i + 13;
+            return [`ESPACIO VIP ${numero}`, "POR DEFINIR", "", "Espacio reservado para una futura arma VIP.", "ARMA VIP"];
+        })
+    ],
+    negocios: [
+        ["NEGOCIO GUAYAQUIL V3", "Compra por discord", "", "Disponibilidad por Discord.", "NEGOCIO"],
+        ["NEGOCIO EXCLUSIVO", "Compra por discord", "", "Oportunidad exclusiva.", "NEGOCIO"],
+        ["NEGOCIO PREMIUM", "Compra por discord", "", "Consulta disponibilidad.", "NEGOCIO"]
+    ]
+};
