@@ -1,0 +1,1 @@
+Coloca en esta carpeta los 12 GIF renombrados exactamente como las rutas de js/catalogo.js: starar.gif, ar15-lionhead.gif, pistolmk2-volt.gif, gk18-blackgold.gif, deagle-angelic.gif, m4-cerberus.gif, gk20-caution.gif, deagle-cerberus.gif, wolfrigle-fire.gif, amoyaltoxic.gif, bloodymoon.gif y bloodymoon-smg.gif. No borres los SVG existentes.
