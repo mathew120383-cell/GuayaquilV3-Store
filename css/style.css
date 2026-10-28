@@ -214,3 +214,89 @@ footer strong b{color:var(--gv3-pink)}
   .nav .logo{font-size:20px;gap:8px}
   .nav .logo img{width:34px;height:34px}
 }
+
+
+/* GUAYAQUIL V3 — FONDO GLOBAL INTENSO + LOGO VISIBLE */
+:root{
+ --gv3-cyan:#00eaff;--gv3-blue:#087cff;--gv3-pink:#ff00bf;
+ --gv3-purple:#6515a8;--gv3-black:#05050a;
+}
+html,body{min-height:100%;background:#05050a!important}
+body{
+ background:
+  radial-gradient(ellipse at 80% 10%,rgba(0,117,255,.22),transparent 42%),
+  radial-gradient(ellipse at 15% 28%,rgba(255,0,191,.18),transparent 38%),
+  radial-gradient(ellipse at 55% 72%,rgba(82,0,150,.2),transparent 45%),
+  linear-gradient(135deg,#05050a 0%,#100819 45%,#050a15 75%,#07050b 100%)!important;
+ background-attachment:fixed!important;
+}
+body:before{
+ content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+ opacity:.55;
+ background:
+  linear-gradient(115deg,transparent 0 35%,rgba(0,234,255,.055) 47%,transparent 58%),
+  repeating-linear-gradient(0deg,rgba(255,255,255,.018) 0 1px,transparent 1px 5px);
+}
+body>*{position:relative;z-index:1}
+.nav{
+ min-height:76px;height:auto;padding:10px 5.5%;
+ background:rgba(4,5,12,.94)!important;
+ border-bottom:1px solid rgba(0,234,255,.48)!important;
+ box-shadow:0 5px 35px rgba(0,0,0,.45),0 1px 20px rgba(0,234,255,.09)!important;
+}
+.nav .logo{display:flex!important;align-items:center!important;gap:12px!important;flex-shrink:0}
+.nav .logo img{
+ display:block!important;visibility:visible!important;opacity:1!important;
+ width:52px!important;height:52px!important;min-width:52px;object-fit:contain!important;
+ filter:drop-shadow(0 0 8px rgba(0,234,255,.45)) drop-shadow(0 0 12px rgba(255,0,191,.35))!important;
+}
+.nav .logo span{display:inline-block!important;white-space:nowrap;color:#fff!important}
+.nav .logo span b{color:var(--gv3-pink)!important}
+.nav nav a:hover,.nav nav .active{color:var(--gv3-cyan)!important;text-shadow:0 0 12px rgba(0,234,255,.8)!important}
+.hero,.head,.market,.story,.cta,.catalog{
+ background-color:transparent!important;
+}
+.hero{
+ background:
+  radial-gradient(ellipse at 78% 35%,rgba(0,126,255,.27),transparent 38%),
+  radial-gradient(ellipse at 68% 75%,rgba(255,0,191,.2),transparent 38%),
+  linear-gradient(120deg,#06060c,#13091c 54%,#050b16)!important;
+}
+.hero:before,.hero:after{pointer-events:none}
+.head{
+ background:
+  radial-gradient(ellipse at 50% 0%,rgba(106,22,173,.38),transparent 58%),
+  linear-gradient(110deg,rgba(0,234,255,.10),rgba(255,0,191,.10))!important;
+ border-bottom:1px solid rgba(0,234,255,.42)!important;
+}
+.market,.story,.cta{
+ position:relative;
+ background:
+  radial-gradient(ellipse at 10% 25%,rgba(255,0,191,.12),transparent 40%),
+  radial-gradient(ellipse at 85% 65%,rgba(0,140,255,.14),transparent 42%),
+  linear-gradient(120deg,rgba(9,7,17,.94),rgba(16,7,25,.94),rgba(4,9,19,.94))!important;
+}
+.products .product,.cards .card{
+ background:
+  linear-gradient(135deg,rgba(35,15,45,.94),rgba(9,13,25,.97) 58%,rgba(5,10,19,.98))!important;
+ border:1px solid rgba(0,234,255,.34)!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.04),0 10px 35px rgba(0,0,0,.3)!important;
+}
+.products .product:hover,.cards .card:hover{
+ border-color:var(--gv3-pink)!important;
+ box-shadow:0 0 0 1px rgba(255,0,191,.14),0 12px 36px rgba(0,0,0,.4),0 0 25px rgba(0,234,255,.13)!important;
+}
+.prodArt,.modalArt{
+ background:
+  radial-gradient(ellipse at 50% 40%,rgba(0,234,255,.18),transparent 48%),
+  linear-gradient(125deg,#11101d,#24102d 52%,#08111f)!important;
+}
+footer{
+ background:linear-gradient(100deg,rgba(4,5,12,.98),rgba(18,7,25,.98),rgba(4,10,18,.98))!important;
+ border-top:1px solid rgba(0,234,255,.4)!important;
+}
+@media(max-width:700px){
+ .nav .logo img{width:40px!important;height:40px!important;min-width:40px}
+ .nav{gap:12px;flex-wrap:wrap}
+ .nav nav{flex-wrap:wrap}
+}
