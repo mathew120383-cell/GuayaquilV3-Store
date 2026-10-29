@@ -1,16 +1,33 @@
 window.CATALOGO = {
     vehiculos: [
-        ["TOYOTA HITLUX HELL BEAST 6x6 1.0.0 CON SONIDO FIVEM", "$40", "$50", "Vehículo 6x6 exclusivo.", "VEHÍCULO", "assets/vehiculos/toyotahitluxhellbeast6x6.png"],
-        ["MERCEDES-BENZ X CALSS LEDS CALB CUSTOM RINES CON SONIDO FIVEM", "$40", "$50", "Pick-up personalizada.", "VEHÍCULO"],
-        ["GODZGLADIATOR 6x6 CON SONIDO FIVEM", "$40", "$50", "6x6 exclusivo.", "VEHÍCULO"],
-        ["OYCMREV CON SONIDO FIVEM", "$40", "$50", "Vehículo personalizado.", "VEHÍCULO"],
-        ["KOENIGSEGG GEMERA HYCADE CON SONIDO FIVEM", "$40", "$50", "Superdeportivo exclusivo.", "VEHÍCULO"],
-        ["FENYR SUPERSPORT HELLO KITTY DINAMIC LIGHTS GAMER CAFE CON SONIDO FIVEM", "$40", "$50", "Edición especial.", "VEHÍCULO"],
-        ["MERCEDES CLS 19 MAFIA EDITION CON SONIDO FIVEM", "$40", "$50", "Edición Mafia.", "VEHÍCULO"],
-        ["NISSAN SKYLINE GTR R34 CON SONIDO FIVEM", "$40", "$50", "Clásico JDM.", "VEHÍCULO"],
-        ["CIVIC FIVEM", "$40", "$50", "Civic personalizado.", "VEHÍCULO"],
-        ["VEHÍCULO EXCLUSIVO GUAYAQUIL V3", "$40", "$50", "Unidad exclusiva.", "VEHÍCULO"]
-    ],
+        ["FORTUNER LEGENDER MODIFICADA", "$60", "$80", "SUV DEPORTIVA TODOTERRENO.", "SUV", "assets/vehiculos/fortunerlegender.png"],
+        ["FORD LOBO", "$100", "$150", "FORD BLINDADO CON SONIDO.", "PICKUP", "assets/vehiculos/fordlobo.png"],
+        ["TOYOTA HILUX", "$100", "$150", "TOYOTA HILUX BLINDADA.", "4X4", "assets/vehiculos/toyotahiluxblind.png"]
+        ["FORD RAPTOR", "$100", "$150", "FORD RAPTOR BLINDADA", "PICUKP", "assets/vehiculos/fordraptorblind.png"]
+        ["CADILLAC ESCALATE", "$100", "$150", "CADILLAC ESCALATE BLINDADA", "PICKUP", "assets/vehiculos/cadillacblind.png"]
+        ["RAM 1500", "$100", "$150", "RAM 1500 BLINDADA", "PICKUP", "assets/vehiculos/ram1500.png"]
+        ["JEEP ARMOR", "$60", "$80", "JEEP ARMOR 2011", "SUV", "assets/vehiculos/jeep2011arm.png"]
+        ["MERCEDES MAYBACH GLS600", "$60", "$80", "MERCEDES MAYBACH", "SUV", "assets/vehiculos/gls600.png"]
+        ["MERCEDES GLE 63", "$100", "$150", "MERCEDES BLINDADA", "SUV", "assets/vehiculos/gle63.png"]
+        ["FORD F350", "$100", "$150", "FORD F350 BLINDADA", "PIKCUP", "assets/vehiculos/ford350.png"]
+        ["TESLA CYBERTRUCK", "$60", "$80", "CYBERTRUCK WIDEBODY", "PICKUP", "assets/vehiculos/cybertruckwide.png"]
+        ["BSC SILVERADO", "$100", "$150", "SILVERADO BLINDADA", "PICKUP", "assets/vehiculos/silveradoblind.png"]
+        ["AZIRRISA", "$60", "$80", "AZIRRISA MODIFICADA", "SUV", "assets/vehiculos/azirrisa.png"]
+        ["CHEVROLET SUBURBAN", "$100", "$150", "CHEVROLET SUBURBAN BLINDADA", "assets/vehiculos/ suburban.png"]
+        ["FORD RAPTOR F-150", "$100", "$150", "FORD 150 BLINDADA", "PIKCUP", "assets/vehiculos/fordf150blind.png"]
+        ["GMC HUMMER", "$100", "$150", "GMC HUMMER BLINDADA", "PICKUP", "assets/vehiculos/gmchummerblind.png"]
+        ["JEEP WRANGLER APOCALYPSE 6X6", "$60", "$80", "JEEP WRANGLER MOD", "PICKUP", "assets/vehiculos/jeepwrangler.png"]
+        ["TOYOTA HILLUX 6X6 HELL", "60", "$80", "TOYOTA HILLUX HELLFIRE", "PICKUP", "assets/vehiculos/toyotahillux6x6.png"]
+        ["GODZGLATIATOR6X6", "$60", "$80", "GODZGLATIATOR6X6 OPTIM", "PICKUP", "assets/vehiculos/godzglatiator.png"]
+        ["CADILLAC ESV 6X6", "$60", "$80", "ESV 6X6", "PICKUP", "assets/vehiculos/esv6x6.png"]
+        ["CHEVROLET CORVETTE 6X6", "$60", "$80", "DEPORTIVO 6X6", "COUPE DEPORTIVO", "assets/vehiculo/corvette6x6.png"]
+        ["LAMBO V12 VISION GT", "$60", "$80", "LAMBORGUINI GRAN TURISMO", "assets/vehiculo/visiongt.png"]
+        ["RANGE ROVER 6X6", "$60", "$80", "6X6 ROVER", "assets/vehiculos/rr6x6.png"]
+        ["FORD F350 6X6 TOXIC", "$60", "$80", "FORD TOXICA", "assets/vehiculos/350toxic.png"]
+        ["HILUX OFFROAD 6X6", "$60", "$80", "HILUX 6X6", "assets/vehiculos/hilux6x6.png"]
+        ["HELLCAT TACOMA 6x6 V3", "$60", "$80", "TACOMA 6X6", "assets/vehiculos/tacoma6x6.png"]
+        ["FORD BRONCO 6X6", "$60", "$80", "BRONCO 6X6", "assets/vehiculos/bronco6x6.png"]
+    ],  
 
     casas: [
         ["BEACH MANSIÓN FIVEM FULL OPTIMIZADO", "COMPRAR POR DISCORD", "", "Mansión optimizada.", "CASA"],
