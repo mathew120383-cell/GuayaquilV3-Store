@@ -300,3 +300,9 @@ footer{
  .nav{gap:12px;flex-wrap:wrap}
  .nav nav{flex-wrap:wrap}
 }
+
+
+/* Crédito de autoría en el hero de Inicio */
+.heroText .credit-max32{display:block;margin:-16px 0 24px;color:#35eaff;font-size:14px;line-height:1.4;font-weight:800;letter-spacing:.7px;text-shadow:0 0 10px rgba(53,234,255,.28)}
+.heroText .credit-max32 span{display:inline-block;background:linear-gradient(90deg,#35eaff 0%,#168bff 45%,#ff28c8 100%);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:900;text-shadow:none}
+@media(max-width:600px){.heroText .credit-max32{font-size:12px;margin:-12px 0 20px}}
