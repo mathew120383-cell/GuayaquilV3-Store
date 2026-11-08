@@ -47,6 +47,9 @@ window.CATALOGO = {
         ["JEEP", "$60", "$80", "JEEP CON REMOLQUE", "SUV", "assets/vehiculos/jremolque.png"],
         ["LAMBORGHINI HURACAN PERFORMANCE", "$60", "$80", "HURACAN FORGIATO", "DEPORTIVO", "assets/vehiculos/huracanper.png"],
         ["HUMMER EV LIFT", "$60", "$80", "HUMMER", "SUV", "assets/vehiculos/hummer.png"],
+        ["BMW M3 BXANE", "$60", "$80", "BMW M3 MODIFICADO", "DEPORTIVO", "assets/vehiculos/m3bxane.png"],
+        ["BUGATTI KIO MANSORY", "$60", "$80", "BUGATTI MODIFICADO", "DEPORTIVO", "assets/vehiculos/kiomanosory.png"],
+        ["JEEP TRACKHAWK 2026", "$60", "$80", "JEEP 2026 PUERTAS LAMBO", "SUV", "assets/vehiculo/jeeplambo.png"]
     ],  
 
     casas: [
