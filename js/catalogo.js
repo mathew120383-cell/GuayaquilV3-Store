@@ -1,3 +1,4 @@
+
 window.CATALOGO = {
     vehiculos: [
         ["FORTUNER LEGENDER MODIFICADA", "$60", "$80", "SUV DEPORTIVA TODOTERRENO.", "SUV", "assets/vehiculos/fortunerlegender.png"],
@@ -50,19 +51,19 @@ window.CATALOGO = {
         ["BMW M3 BXANE", "$60", "$80", "BMW M3 MODIFICADO", "DEPORTIVO", "assets/vehiculos/m3bxane.png"],
         ["BUGATTI KIO MANSORY", "$60", "$80", "BUGATTI MODIFICADO", "DEPORTIVO", "assets/vehiculos/kiomanosory.png"],
         ["JEEP TRACKHAWK 2026", "$60", "$80", "JEEP 2026 PUERTAS LAMBO", "SUV", "assets/vehiculo/jeeplambo.png"]
-    ],  
+    ],
 
     casas: [
-        ["MANSION STARK DUBAI", "$200", "$300", "COMPRA POR DISCORD","Mansión optimizada.", "MANSIÓN", "assets/casas/starkdubai.png"],
-        ["ENERGY VINEHOUSE","$200", "$300", "COMPRAR POR DISCORD","Casa exclusiva.", "MANSIÓN", "assets/casas/enervinehouse.png"],
-        ["ENERGY MARLOWE", "$200", "$300", "COMPRAR POR DISCORD", "VINEYARD.", "CASA", "assets/casas/enermarlwove.png"],
-        ["ENERGY ELITE HOUSE", "$200", "$300", "COMPRAR POR DISCORD", "MANSIÓN ELITE.", "CASA", "assets/casas/enerelitehouse.png"],
-        ["UJ PLAYBOY V2", "$200", "$300", "COMPRAR POR DISCORD", "Propiedad exclusiva.", "CASA", "assets/casas/playboyv2.png"],
-        ["VINEWOOD STATE V2", "$200", "$300", "COMPRAR POR DISCORD", "URBANIZACIÓN.", "URBANIZACIÓN", "assets/casas/urbanización.png"],
-        ["RJZ BUNGALOW", "$200", "$300", "COMPRAR POR DISCORD", "CASAS DE PLAYA.", "CASAS", "assets/casas/playaurb.png"],
-        ["CALI STATE MANSION", "$200", "$300", "COMPRAR POR DISCORD", "Mansión.", "CASA", "assets/casas/calistate.png"],
-        ["BEACH MANSION 05", "$200", "$300", "COMPRAR POR DISCORD", "Gran mansión PLAYA.", "MANSIÓN", "assets/casas/beachmansion.png"],
-        ["VINEWOOD ROOFTOP", "$200", "$300", "COMPRAR POR DISCORD", "Propiedad MLO.", "CASA", "assets/casas/rooftop.png"]
+        ["MANSION STARK DUBAI", "$200", "$300", "COMPRAR POR DISCORD. Mansión optimizada.", "MANSIÓN", "assets/casas/starkdubai.png"],
+        ["ENERGY VINEHOUSE", "$200", "$300", "COMPRAR POR DISCORD. Casa exclusiva.", "MANSIÓN", "assets/casas/enervinehouse.png"],
+        ["ENERGY MARLOWE", "$200", "$300", "COMPRAR POR DISCORD. VINEYARD.", "CASA", "assets/casas/enermarlwove.png"],
+        ["ENERGY ELITE HOUSE", "$200", "$300", "COMPRAR POR DISCORD. MANSIÓN ELITE.", "CASA", "assets/casas/enerelitehouse.png"],
+        ["UJ PLAYBOY V2", "$200", "$300", "COMPRAR POR DISCORD. Propiedad exclusiva.", "CASA", "assets/casas/playboyv2.png"],
+        ["VINEWOOD STATE V2", "$200", "$300", "COMPRAR POR DISCORD. URBANIZACIÓN.", "URBANIZACIÓN", "assets/casas/urbanización.png"],
+        ["RJZ BUNGALOW", "$200", "$300", "COMPRAR POR DISCORD. CASAS DE PLAYA.", "CASAS", "assets/casas/playaurb.png"],
+        ["CALI STATE MANSION", "$200", "$300", "COMPRAR POR DISCORD. Mansión.", "CASA", "assets/casas/calistate.png"],
+        ["BEACH MANSION 05", "$200", "$300", "COMPRAR POR DISCORD. Gran mansión PLAYA.", "MANSIÓN", "assets/casas/beachmansion.png"],
+        ["VINEWOOD ROOFTOP", "$200", "$300", "COMPRAR POR DISCORD. Propiedad MLO.", "CASA", "assets/casas/rooftop.png"]
     ],
 
     armas: [
