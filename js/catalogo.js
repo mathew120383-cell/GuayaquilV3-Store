@@ -53,16 +53,16 @@ window.CATALOGO = {
     ],  
 
     casas: [
-        ["BEACH MANSIÓN FIVEM FULL OPTIMIZADO", "COMPRAR POR DISCORD", "", "Mansión optimizada.", "CASA"],
-        ["WILD HOUSE FIVEM FULL OPTIMIZADO", "COMPRAR POR DISCORD", "", "Casa exclusiva.", "CASA"],
-        ["VINEWOOD ROOFTOP FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Rooftop moderno.", "CASA"],
-        ["LS HILLS HOUSE2 FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Propiedad residencial.", "CASA"],
-        ["LS HILLS HOUSE1 FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Propiedad exclusiva.", "CASA"],
-        ["FUTURIS HOUSE FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Diseño futurista.", "CASA"],
-        ["BEACH MANSION 04 FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Mansión de playa.", "CASA"],
-        ["BEACH MANSION 03 FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Mansión de playa.", "CASA"],
-        ["NOVA GRAND SENORA MANSION FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Gran mansión.", "CASA"],
-        ["MLO VINEWOOD HILL FIVEM OPTIMIZADO", "COMPRAR POR DISCORD", "", "Propiedad MLO.", "CASA"]
+        ["MANSION STARK DUBAI", "$200", "$300", "COMPRA POR DISCORD","Mansión optimizada.", "MANSIÓN", "assets/casas/starkdubai.png"],
+        ["ENERGY VINEHOUSE","$200", "$300", "COMPRAR POR DISCORD","Casa exclusiva.", "MANSIÓN", "assets/casas/enervinehouse.png"],
+        ["ENERGY MARLOWE", "$200", "$300", "COMPRAR POR DISCORD", "VINEYARD.", "CASA", "assets/casas/enermarlwove.png"],
+        ["ENERGY ELITE HOUSE", "$200", "$300", "COMPRAR POR DISCORD", "MANSIÓN ELITE.", "CASA", "assets/casas/enerelitehouse.png"],
+        ["UJ PLAYBOY V2", "$200", "$300", "COMPRAR POR DISCORD", "Propiedad exclusiva.", "CASA", "assets/casas/playboyv2.png"],
+        ["VINEWOOD STATE V2", "$200", "$300", "COMPRAR POR DISCORD", "URBANIZACIÓN.", "URBANIZACIÓN", "assets/casas/urbanización.png"],
+        ["RJZ BUNGALOW", "$200", "$300", "COMPRAR POR DISCORD", "CASAS DE PLAYA.", "CASAS", "assets/casas/playaurb.png"],
+        ["CALI STATE MANSION", "$200", "$300", "COMPRAR POR DISCORD", "Mansión.", "CASA", "assets/casas/calistate.png"],
+        ["BEACH MANSION 05", "$200", "$300", "COMPRAR POR DISCORD", "Gran mansión PLAYA.", "MANSIÓN", "assets/casas/beachmansion.png"],
+        ["VINEWOOD ROOFTOP", "$200", "$300", "COMPRAR POR DISCORD", "Propiedad MLO.", "CASA", "assets/casas/rooftop.png"]
     ],
 
     armas: [
